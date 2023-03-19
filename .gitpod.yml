@@ -1,4 +1,4 @@
 tasks:
-  - before: pip install -r requirements.txt
+  - before: pip install -r requirement.txt
     name: Test Case on chrome
     command: pytest -s -n=2
