@@ -1,0 +1,4 @@
+tasks:
+  - before: pip install -r requirements.txt
+    name: Test Case on chrome
+    command: pytest -s -n=2
